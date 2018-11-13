@@ -1,0 +1,6 @@
+composer create-project --prefer-dist laravel/laravel crud
+$php artisan serve
+$php artisan make:model Phonebook -m
+$php artisan migrate
+
+database name: laravelcrud
